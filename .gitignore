@@ -1,0 +1,13 @@
+# VS Code
+.vscode/
+*.log
+
+# Build
+build/
+*.o
+*.elf
+*.map
+
+# CMake / Make
+CMakeFiles/
+cmake_install.cmake

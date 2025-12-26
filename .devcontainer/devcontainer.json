@@ -1,0 +1,21 @@
+{
+  "name": "ARM Makefile Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git-lfs:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.makefile-tools",
+        "marus25.cortex-debug",
+        "eamodio.gitlens",
+        "mhutchie.git-graph"
+      ]
+    }
+  },
+  "postCreateCommand": "arm-none-eabi-gcc --version"
+}
